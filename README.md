@@ -23,26 +23,7 @@ A fully functional 5-stage pipelined processor based on the MIPS32 ISA, implemen
 
 ---
 
-## 📂 Directory Structure
 
-MIPS32_Pipelined_Processor/
-├── pipe_mips32.v # Main processor module
-├── testbench1.v # Adds 3 numbers and stores result
-├── testbench2.v # LW + ADDI + SW pipeline demo
-├── testbench3.v # Loop-based multiplication
-├── DUT.vcd # VCD dump (testbench1)
-├── mips.vcd # VCD dump (testbench2 & 3)
-├── waveforms/ # Screenshots from GTKWave
-│ ├── testbench1.png
-│ ├── testbench2.png
-│ └── testbench3.png
-└── README.md
-
-yaml
-Copy
-Edit
-
----
 
 ## 🧪 Testbenches Explained
 
