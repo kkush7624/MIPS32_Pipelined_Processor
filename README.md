@@ -19,7 +19,7 @@ A fully functional 5-stage pipelined processor based on the MIPS32 ISA, implemen
 
 ## 🧠 Architecture Diagram
 
-![Block Diagram](./docs/mips_block_diagram.png)
+![Block Diagram](/waveform/Pipelining_Architecture.jpeg)
 
 ---
 
