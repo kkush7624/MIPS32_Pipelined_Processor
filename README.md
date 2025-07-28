@@ -31,25 +31,25 @@ A fully functional 5-stage pipelined processor based on the MIPS32 ISA, implemen
 
 - Loads 3 numbers (10, 20, 25) → Adds → Stores result
 - ✅ Final result: `R5 = 55`
-- 📷 [Waveform Screenshot](./waveforms/testbench1.png)
+- 📷 [Waveform Screenshot](./waveform/waveform1.png)
 
 ### 🔹 Testbench 2 — Memory Load/Store
 
 - Loads a value from memory → Adds constant → Stores back
 - ✅ Demonstrates LW/ADDI/SW sequence
-- 📷 [Waveform Screenshot](./waveforms/testbench2.png)
+- 📷 [Waveform Screenshot](./waveform/waveform2.png)
 
 ### 🔹 Testbench 3 — Loop Multiply (like factorial)
 
 - Demonstrates data hazards and loop execution
 - ✅ Result: `Mem[198] = 5040` (7!)
-- 📷 [Waveform Screenshot](./waveforms/testbench3.png)
+- 📷 [Waveform Screenshot](./waveform/waveform3.png)
 
 ---
 
 ## 📷 Waveform Snapshots (GTKWave)
 
-> Stored in `/waveforms/` folder, captured via `GTKWave`.
+> Stored in `/waveform/` folder, captured via `GTKWave`.
 
 ---
 
